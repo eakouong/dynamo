@@ -2,21 +2,9 @@
 
 ทดลอง การเขียน RestApi เชื่อมต่อ DynamoDB ด้วย Spring Reactive
 
-Config
+Config 
+# AmazonDynamoDB:DynamoDBMapper
 ```
-package com.yan.dynamotest.config;
-
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.beans.factory.annotation.Value;
-
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.client.builder.AwsClientBuilder;
-import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
-import com.amazonaws.services.dynamodbv2.AmazonDynamoDBAsyncClientBuilder;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
-
 @Configuration
 public class DynamoDbConfiguration {
     @Value("${dynamo.accessKey}")
