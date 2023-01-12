@@ -33,7 +33,7 @@ public class DynamoDbConfiguration {
 
 ```
 
-Set application.yaml
+# Set application.yaml
 ```
 server:
   port: 8081
