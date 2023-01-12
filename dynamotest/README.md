@@ -91,7 +91,14 @@ clone  && run
  ./mvnw clean install
  ./mvnw spring-boot:run
 ````
-commit
+check out
+````
+git branch //check branch
+git branch <name> //create new branch
+
+git checkout <branch>
+````
+commit & push
 ````
 git add . or git add <namefile>
 git commit -m "commit message"
@@ -104,8 +111,8 @@ git pull --rebase
 
 merge
 ````
-git checkout <your_current_branch>
-git merge  <your_current_branch>
+git checkout <your_current_branch>  //branch ที่จะmerge
+git merge  <your_current_branch>    //branch ที่แก้ไขแล้วจะ mergeไปใส่ตัวบน
 git push
-get log ดู
+get log 
 ````
