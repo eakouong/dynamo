@@ -2,8 +2,8 @@
 
 ทดลอง การเขียน RestApi เชื่อมต่อ DynamoDB ด้วย Spring Reactive
 
-Config 
-# AmazonDynamoDB:DynamoDBMapper
+ 
+# Config AmazonDynamoDB:DynamoDBMapper
 ```
 @Configuration
 public class DynamoDbConfiguration {
