@@ -37,11 +37,11 @@ Set in application.properties
 
 secretKey:
 ``````
-dynamo.secretKey=TtP3D6rhlmRehd+3IvuXwijZNpOX0naDjhTDDTR0
+dynamo.secretKey= TtP3D6rhlmRehd+3IvuXwijZNpOX0naDjhTDDTR0
 ``````
 accessKey:
 ``````
-dynamo.accessKey=AKIAQFI4U3I63F3I47VE
+dynamo.accessKey= AKIAQFI4U3I63F3I47VE
 ``````
 use connect dynamoDB for AWS
 
@@ -102,7 +102,8 @@ commit & push
 ````
 git add . or git add <namefile>
 git commit -m "commit message"
-git push 
+git push //ถ้ามี branch เเล้ว
+git push --set-upstream origin <branch> //ถ้ายังไม่มีต้อง new branchใหม่ ใช้ตัวนี้
 ````
 pull
 ````
